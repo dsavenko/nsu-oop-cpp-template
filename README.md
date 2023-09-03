@@ -22,7 +22,16 @@
     $ git commit -m "Краткое описание изменений"
     $ git push
     ```
-3. Проверяем, что всё залито успешно, командой `git status`: если ничего не вывёла, то всё ОК.
+3. Проверяем, что всё залито успешно, командой `git status`: 
+    ```
+    $ git status
+    On branch master
+    Your branch is up to date with 'origin/master'.
+
+    nothing to commit, working tree clean
+
+    ```
+    Если вывела такое, то всё ОК.
 
 **Рекомендуется самостоятельно изучить работу с Git более подробно.**
 
